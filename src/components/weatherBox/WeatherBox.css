@@ -1,3 +1,5 @@
 .weatherBox {
+    width: 180px;
     border: 1px solid black;
+    display: inline-block;
 }
