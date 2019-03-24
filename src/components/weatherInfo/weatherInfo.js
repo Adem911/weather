@@ -4,8 +4,8 @@ import './WeatherInfo.css';
 const WeatherInfo = (props) => {
     return (
         <div className='weatherInfo'>
-            <h1>something here!</h1>
-            <h2>{props.dayTemp}</h2>
+            <img alt='' src={props.icon} id='icon'/>
+            <h2>Day: <span id='day'>{props.dayTemp}</span> / Night <span id='night'>{props.nightTemp}</span></h2>
         </div>
     );
 }

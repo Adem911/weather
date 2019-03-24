@@ -6,7 +6,7 @@ const CityInfo = (props) =>{
         <div className='cityInfo'>
             <h1>{props.city}</h1>
             <h3>{props.day}</h3>
-            <h3>weather condition</h3>
+            <h3>{props.condition}</h3>
         </div>
     );
 };

@@ -1,3 +1,19 @@
 .weatherInfo {
     border: 1px solid black;
+    margin: 40px auto;
+    width: 60%;
+    color: rgb(233, 224, 224);
+    background-color: rgb(144, 107, 39);
+    border-radius: 15px;
+}
+#icon {  
+    width: 100px;
+}
+
+#day {
+    color: rgb(243, 161, 10);
+}
+
+#night {
+    color: blue;
 }
